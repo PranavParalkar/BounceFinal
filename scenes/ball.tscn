@@ -7,6 +7,8 @@
 radius = 28.6356
 
 [node name="Ball" type="CharacterBody2D"]
+z_index = 5
+collision_layer = 2
 script = ExtResource("1_xobsm")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
